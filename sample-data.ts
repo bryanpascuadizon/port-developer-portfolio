@@ -12,7 +12,7 @@ export const portfolio = {
         "Developed and implemented front-end solutions using React.js and TypeScript for a major banking client in Switzerland, enhancing code functionality and performance.",
         "Conducted peer code reviews to ensure adherence to coding standards and best practices, fostering a collaborative and high-quality development environment.",
       ],
-      years: "Aug 2023 - Aug - 2024",
+      years: "Aug 2023 - Aug 2024",
       skills: [
         "ReactJS",
         "TypeScript",
@@ -77,12 +77,22 @@ export const portfolio = {
   ],
   projects: [
     {
+      name: "bryanpascuadizon",
+      description: "My Developer Portfolio",
+      image: "/images/projects/portfolio.png",
+      website: "https://bryanpascuadizon.vercel.app/",
+      github: "https://github.com/bryanpascuadizon/port-developer-portfolio",
+      repositoryName: "port-developer-portfolio",
+      skills: ["ReactJS", "Tailwind"],
+    },
+    {
       name: "Freshpicks E-Commerce",
       description:
         "A simple e-commerce platform that sells fresh, high-quality microgreens, providing customers with a convenient way to enhance their health and meals.",
       image: "/images/projects/freshpicks.png",
       website: "https://port-freshpicks-ecommerce.vercel.app/sign-in",
       github: "https://github.com/bryanpascuadizon/port-freshpicks-ecommerce",
+      repositoryName: "port-freshpicks-ecommerce",
       skills: ["NextJS", "TypeScript", "Tailwind", "RestfulAPI", "Prisma"],
     },
   ],

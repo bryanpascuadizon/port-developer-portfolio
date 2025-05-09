@@ -2,7 +2,7 @@ import { portfolio } from "@/sample-data";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Github } from "lucide-react";
 
 const Projects = () => {
   const data = portfolio;
@@ -12,16 +12,16 @@ const Projects = () => {
         <p className="text-lg primary-text font-bold mb-1">Projects</p>
       </div>
       {data.projects.map((project, projectIndex) => (
-        <div key={projectIndex}>
-          <div className="grid grid-cols-4 gap-5">
-            <div className="col-span-1">
-              <Link href={project.website} target="_blank">
+        <div key={projectIndex} className="">
+          <div className="md:grid md:grid-cols-4 gap-5">
+            <div className="md:col-span-1 w-full">
+              <Link href={project.website} target="_blank" className="link">
                 <Image
                   src={project.image}
                   alt={project.name}
                   width={300}
                   height={300}
-                  className="rounded-sm"
+                  className="rounded-sm object-cover object-center m-auto mb-10"
                 />
               </Link>
             </div>
@@ -29,7 +29,7 @@ const Projects = () => {
               <div className="">
                 <Link
                   href={project.website}
-                  className="text-base primary-text font-bold flex"
+                  className="text-base primary-text font-bold flex link"
                   target="_blank"
                 >
                   {" "}
@@ -41,8 +41,15 @@ const Projects = () => {
                   />
                 </Link>
                 <p className="secondary-text text-sm mb-3 mt-1">
-                  <Link href={project.github} target="_blank">
-                    {project.github}
+                  <Link
+                    href={project.github}
+                    target="_blank"
+                    className="flex gap-2 link"
+                  >
+                    <Github />{" "}
+                    <span className="self-center">
+                      {project.repositoryName}
+                    </span>
                   </Link>
                 </p>
                 <p className="mb-3 accent-text">{project.description}</p>
@@ -50,7 +57,7 @@ const Projects = () => {
                   {project.skills.map((skill, skillIndex) => (
                     <Badge
                       key={skillIndex}
-                      className="badge-background text-white"
+                      className="badge-background primary-text"
                     >
                       {skill}
                     </Badge>

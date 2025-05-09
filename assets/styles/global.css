@@ -27,4 +27,8 @@
   .badge-background {
     @apply bg-[#006064];
   }
+
+  .link {
+    @apply cursor-pointer;
+  }
 }

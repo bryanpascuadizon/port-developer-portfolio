@@ -12,7 +12,7 @@ const Experience = () => {
       {data.experience.map((experience, experienceIndex) => (
         <div key={experienceIndex}>
           <div className="grid grid-cols-4 gap-5">
-            <div className="col-span-1 self-center">
+            <div className="col-span-1 mt-1.5">
               <p className="text-right text-xs secondary-text">
                 {experience.years}
               </p>
@@ -26,11 +26,6 @@ const Experience = () => {
                 {" "}
                 {experience.company}
               </Link>
-            </div>
-          </div>
-          <div className="grid grid-cols-4 gap-5">
-            <div className="col-span-1"></div>
-            <div className="col-span-3">
               <p className="secondary-text text-sm mb-3 mt-1">
                 {experience.position}
               </p>
