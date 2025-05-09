@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer utilities {
+  .wrapper {
+    @apply max-w-3xl lg:mx-auto p-5 w-full;
+  }
+
+  body {
+    @apply text-gray-400;
+  }
+
+  .primary-text {
+    @apply text-[#EDEDED];
+  }
+
+  .secondary-text {
+    @apply text-[#A3A3A3];
+  }
+
+  .accent-text {
+    @apply text-[#9CA3AF];
+  }
+
+  .badge-background {
+    @apply bg-[#006064];
+  }
+}
