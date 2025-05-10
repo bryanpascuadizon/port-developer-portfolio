@@ -3,7 +3,10 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="my-5 grid grid-cols-2 secondary-text">
+    <div
+      className="my-5 grid grid-cols-2 secondary-text slide-in-from-right"
+      style={{ animationDelay: `${0.5 * 0.5}s` }}
+    >
       <div>
         <p></p>
       </div>

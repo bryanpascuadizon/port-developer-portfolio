@@ -8,7 +8,7 @@ const Experience = () => {
     <div className="text-xs mb-5">
       <div
         className="my-5 slide-in-from-right"
-        style={{ animationDelay: `${0.5 * 0.3}s` }}
+        style={{ animationDelay: `${1.5 * 0.5}s` }}
       >
         <p className="text-lg primary-text font-bold mb-1">Experience</p>
       </div>
@@ -16,7 +16,7 @@ const Experience = () => {
         <div
           key={experienceIndex}
           className="slide-in-from-right"
-          style={{ animationDelay: `${(experienceIndex + 1) * 0.3}s` }}
+          style={{ animationDelay: `${(experienceIndex + 2) * 0.5}s` }}
         >
           <div className="grid grid-cols-4 gap-5">
             <div className="col-span-1 mt-1.5">
