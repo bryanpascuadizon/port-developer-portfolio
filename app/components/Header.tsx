@@ -9,11 +9,14 @@ const Header = () => {
       </div>
       <div className="flex justify-end gap-3">
         {" "}
-        <Link href="https://github.com/bryanpascuadizon">
+        <Link href="https://github.com/bryanpascuadizon" target="_blank">
           {" "}
           <Github />
         </Link>
-        <Link href="https://www.linkedin.com/in/danielle-bryan-dizon-236861164/">
+        <Link
+          href="https://www.linkedin.com/in/danielle-bryan-dizon-236861164/"
+          target="_blank"
+        >
           <Linkedin />
         </Link>
       </div>

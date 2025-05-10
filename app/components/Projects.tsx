@@ -21,7 +21,7 @@ const Projects = () => {
                   alt={project.name}
                   width={300}
                   height={300}
-                  className="rounded-sm object-cover object-center m-auto mb-10"
+                  className="rounded-sm object-cover object-center m-auto md:mb-10 mb-5"
                 />
               </Link>
             </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                   </Link>
                 </p>
                 <p className="mb-3 accent-text">{project.description}</p>
-                <div className="flex flex-wrap gap-2 my-4">
+                <div className="flex flex-wrap gap-2 mt-4 mb-10">
                   {project.skills.map((skill, skillIndex) => (
                     <Badge
                       key={skillIndex}
