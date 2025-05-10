@@ -8,12 +8,19 @@ const Projects = () => {
   const data = portfolio;
   return (
     <div className="text-xs mb-10">
-      <div className="my-5">
+      <div
+        className="my-5 slide-in-from-right"
+        style={{ animationDelay: `${5.5 * 0.3}s` }}
+      >
         <p className="text-lg primary-text font-bold mb-1">Projects</p>
       </div>
-      {data.projects.map((project, projectIndex) => (
-        <div key={projectIndex} className="">
-          <div className="md:grid md:grid-cols-4 gap-5">
+      <div className="flex flex-col gap-5">
+        {data.projects.map((project, projectIndex) => (
+          <div
+            className="md:grid md:grid-cols-4 flex flex-col gap-5 slide-in-from-right"
+            style={{ animationDelay: `${(projectIndex + 6) * 0.3}s` }}
+            key={projectIndex}
+          >
             <div className="md:col-span-1 w-full">
               <Link href={project.website} target="_blank" className="link">
                 <Image
@@ -21,11 +28,11 @@ const Projects = () => {
                   alt={project.name}
                   width={300}
                   height={300}
-                  className="rounded-sm object-cover object-center m-auto md:mb-10 mb-5"
+                  className="rounded-sm object-cover object-center m-auto"
                 />
               </Link>
             </div>
-            <div className="col-span-3">
+            <div className="md:col-span-3">
               <div className="">
                 <Link
                   href={project.website}
@@ -53,7 +60,7 @@ const Projects = () => {
                   </Link>
                 </p>
                 <p className="mb-3 accent-text">{project.description}</p>
-                <div className="flex flex-wrap gap-2 mt-4 mb-10">
+                <div className="flex flex-wrap gap-2 my-4">
                   {project.skills.map((skill, skillIndex) => (
                     <Badge
                       key={skillIndex}
@@ -66,8 +73,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

@@ -6,11 +6,18 @@ const Experience = () => {
   const data = portfolio;
   return (
     <div className="text-xs mb-5">
-      <div className="my-5">
+      <div
+        className="my-5 slide-in-from-right"
+        style={{ animationDelay: `${0.5 * 0.3}s` }}
+      >
         <p className="text-lg primary-text font-bold mb-1">Experience</p>
       </div>
       {data.experience.map((experience, experienceIndex) => (
-        <div key={experienceIndex}>
+        <div
+          key={experienceIndex}
+          className="slide-in-from-right"
+          style={{ animationDelay: `${(experienceIndex + 1) * 0.3}s` }}
+        >
           <div className="grid grid-cols-4 gap-5">
             <div className="col-span-1 mt-1.5">
               <p className="text-right text-xs secondary-text">
