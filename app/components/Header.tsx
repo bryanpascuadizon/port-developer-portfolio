@@ -12,12 +12,17 @@ const Header = () => {
       </div>
       <div className="flex justify-end gap-3">
         {" "}
-        <Link href="https://github.com/bryanpascuadizon" target="_blank">
+        <Link
+          href="https://github.com/bryanpascuadizon"
+          target="_blank"
+          className="link"
+        >
           {" "}
           <Github />
         </Link>
         <Link
           href="https://www.linkedin.com/in/danielle-bryan-dizon-236861164/"
+          className="link"
           target="_blank"
         >
           <Linkedin />

@@ -10,7 +10,7 @@ const Projects = () => {
     <div className="text-xs mb-10">
       <div
         className="my-5 slide-in-from-right"
-        style={{ animationDelay: `${6.5 * 0.5}s` }}
+        style={{ animationDelay: `${7.5 * 0.5}s` }}
       >
         <p className="text-lg primary-text font-bold mb-1">Projects</p>
       </div>
@@ -18,7 +18,7 @@ const Projects = () => {
         {data.projects.map((project, projectIndex) => (
           <div
             className="md:grid md:grid-cols-4 flex flex-col gap-5 slide-in-from-right"
-            style={{ animationDelay: `${(projectIndex + 7) * 0.5}s` }}
+            style={{ animationDelay: `${(projectIndex + 8) * 0.5}s` }}
             key={projectIndex}
           >
             <div className="md:col-span-1 w-full">

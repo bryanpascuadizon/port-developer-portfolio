@@ -27,7 +27,7 @@ const Experience = () => {
             <div className="col-span-3">
               <Link
                 href={experience.companyLink}
-                className="text-base primary-text font-bold"
+                className="text-base primary-text font-bold link"
                 target="_blank"
               >
                 {" "}

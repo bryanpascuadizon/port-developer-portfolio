@@ -12,7 +12,7 @@ export const portfolio = {
         "Developed and implemented front-end solutions using React.js and TypeScript for a major banking client in Switzerland, enhancing code functionality and performance.",
         "Conducted peer code reviews to ensure adherence to coding standards and best practices, fostering a collaborative and high-quality development environment.",
       ],
-      years: "Aug 2023 - Aug 2024",
+      years: "2023 - 2024",
       skills: [
         "ReactJS",
         "TypeScript",
@@ -29,7 +29,7 @@ export const portfolio = {
       description: [
         "Developed and optimized reusable, efficient, and scalable JavaScript code within the MERN stack, driving performance improvements and ensuring maintainability for complex web applications",
       ],
-      years: "Nov 2021 - Feb 2023",
+      years: "2021 - 2023",
       skills: [
         "ReactJS",
         "TypeScript",
@@ -45,7 +45,7 @@ export const portfolio = {
       description: [
         "Designed, developed, and maintained high-performance real estate websites for U.S clients, utilizing front-end web technologies and configuring back-end systems with Kentico CMS to deliver seamless user experiences and robust content management solutions.",
       ],
-      years: "Nov 2020 - April 2021",
+      years: "2020 - 2021",
       skills: ["JavaScript", "Kentico CMS", "Agile Development"],
     },
     {
@@ -55,7 +55,7 @@ export const portfolio = {
       description: [
         "Developed and innovated systems on the OutSystems platform to accurately measure and monitor carbon emissions and cleanliness across various regions in the Philippines and internationally, contributing to environmental sustainability and data-driven decision-making.",
       ],
-      years: "Oct 2018 - June 2020",
+      years: "2018 - 2020",
       skills: ["Outsystems", "JavaScript", "JQuery", "Agile Development"],
     },
     {
@@ -65,7 +65,7 @@ export const portfolio = {
       description: [
         "Provided application support and implemented code enhancements using C#, ASP.net and Entity Framework for various in-house systems, ensuring system reliability, improving functionality, and optimizing performance to meet evolving business needs.",
       ],
-      years: "Feb 2017 - Sept 2018",
+      years: "2017 - 2018",
       skills: [
         "C#",
         "Entity Framework",
@@ -73,6 +73,16 @@ export const portfolio = {
         "JQuery",
         "Waterfall Development",
       ],
+    },
+  ],
+  education: [
+    {
+      name: "De La Salle - College of Saint Benilde",
+      course: "BS - Information System",
+      school_link: "https://www.benilde.edu.ph/",
+      years: "2013 - 2017",
+      course_link:
+        "https://www.benilde.edu.ph/undergraduate-information-systems/",
     },
   ],
   projects: [

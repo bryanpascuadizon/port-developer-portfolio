@@ -27,7 +27,7 @@
   }
 
   .link {
-    @apply cursor-pointer;
+    @apply cursor-pointer hover:text-[#006064];
   }
 }
 
