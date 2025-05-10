@@ -82,7 +82,7 @@ export const portfolio = {
       image: "/images/projects/portfolio.png",
       website: "https://bryanpascuadizon.vercel.app/",
       github: "https://github.com/bryanpascuadizon/port-developer-portfolio",
-      repositoryName: "port-developer-portfolio",
+      repositoryName: "port-developer-portfolio.git",
       skills: ["ReactJS", "Tailwind"],
     },
     {
@@ -92,8 +92,15 @@ export const portfolio = {
       image: "/images/projects/freshpicks.png",
       website: "https://port-freshpicks-ecommerce.vercel.app/sign-in",
       github: "https://github.com/bryanpascuadizon/port-freshpicks-ecommerce",
-      repositoryName: "port-freshpicks-ecommerce",
-      skills: ["NextJS", "TypeScript", "Tailwind", "RestfulAPI", "Prisma"],
+      repositoryName: "port-freshpicks-ecommerce.git",
+      skills: [
+        "NextJS",
+        "TypeScript",
+        "Tailwind",
+        "React Query",
+        "RestfulAPI",
+        "Prisma",
+      ],
     },
   ],
 };
