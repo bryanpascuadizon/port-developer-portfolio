@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 
 const Header = () => {
@@ -11,13 +11,18 @@ const Header = () => {
         <p></p>
       </div>
       <div className="flex justify-end gap-3">
-        {" "}
+        <Link
+          href="mailto:bryanpascuadizon@gmail.com"
+          target="_blank"
+          className="link"
+        >
+          <Mail />
+        </Link>
         <Link
           href="https://github.com/bryanpascuadizon"
           target="_blank"
           className="link"
         >
-          {" "}
           <Github />
         </Link>
         <Link
