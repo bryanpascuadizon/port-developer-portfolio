@@ -15,6 +15,7 @@ const Header = () => {
           href="mailto:bryanpascuadizon@gmail.com"
           target="_blank"
           className="link"
+          aria-label="mailto:bryanpascuadizon@gmail.com"
         >
           <Mail />
         </Link>
@@ -22,6 +23,7 @@ const Header = () => {
           href="https://github.com/bryanpascuadizon"
           target="_blank"
           className="link"
+          aria-label="https://github.com/bryanpascuadizon"
         >
           <Github />
         </Link>
@@ -29,6 +31,7 @@ const Header = () => {
           href="https://www.linkedin.com/in/danielle-bryan-dizon-236861164/"
           className="link"
           target="_blank"
+          aria-label="https://www.linkedin.com/in/danielle-bryan-dizon-236861164/"
         >
           <Linkedin />
         </Link>
