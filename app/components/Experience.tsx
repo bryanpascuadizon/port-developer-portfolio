@@ -25,19 +25,20 @@ const Experience = () => {
               </p>
             </div>
             <div className="col-span-3">
+              <p className="primary-text text-base font-bold mb-1">
+                {experience.position}
+              </p>
               <Link
                 href={experience.companyLink}
-                className="text-base primary-text font-bold link"
+                className="secondary-text text-sm link"
                 target="_blank"
               >
                 {" "}
                 {experience.company}
               </Link>
-              <p className="secondary-text text-sm mb-3 mt-1">
-                {experience.position}
-              </p>
+
               {experience.description.map((description, descriptionIndex) => (
-                <p className="mb-3 accent-text" key={descriptionIndex}>
+                <p className="mt-3 mb-3 accent-text" key={descriptionIndex}>
                   {description}
                 </p>
               ))}

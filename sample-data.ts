@@ -51,7 +51,7 @@ export const portfolio = {
     {
       company: "ADEC Innovations",
       companyLink: "https://www.adec-innovations.com/",
-      position: "Systems Developer 1",
+      position: "Systems Developer",
       description: [
         "Developed and innovated systems on the OutSystems platform to accurately measure and monitor carbon emissions and cleanliness across various regions in the Philippines and internationally, contributing to environmental sustainability and data-driven decision-making.",
       ],
