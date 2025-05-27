@@ -112,5 +112,23 @@ export const portfolio = {
         "Prisma",
       ],
     },
+    {
+      name: "DailyPeso (In progress)",
+      description:
+        "A personal expense tracker designed to help you stay on top of your daily spending. You can easily log your expenses and income, organize them by account, and see where your money goes. With a clean design and smooth experience, DailyPeso makes money tracking quick, easy, and stress-free — whether you're saving up or just trying to budget better.",
+      image: "/images/projects/dailypeso.png",
+      website: "https://dailypeso.vercel.app/",
+      github:
+        "https://github.com/bryanpascuadizon/port-dailypeso-expense-tracker",
+      repositoryName: "port-dailypeso-expense-tracker.git",
+      skills: [
+        "NextJS",
+        "TypeScript",
+        "Tailwind",
+        "React Query",
+        "RestfulAPI",
+        "Prisma",
+      ],
+    },
   ],
 };

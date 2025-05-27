@@ -7,9 +7,7 @@ const Header = () => {
       className="my-5 grid grid-cols-2 secondary-text slide-in-from-right"
       style={{ animationDelay: `${0.5 * 0.5}s` }}
     >
-      <div>
-        <p></p>
-      </div>
+      <div className="flex items-center"></div>
       <div className="flex justify-end gap-3">
         <Link
           href="mailto:bryanpascuadizon@gmail.com"
