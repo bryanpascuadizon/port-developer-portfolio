@@ -100,7 +100,7 @@ export const portfolio = {
       description:
         "A simple e-commerce platform that sells fresh, high-quality microgreens, providing customers with a convenient way to enhance their health and meals.",
       image: "/images/projects/freshpicks.png",
-      website: "https://port-freshpicks-ecommerce.vercel.app/sign-in",
+      website: "https://freshpicks.vercel.app/sign-in",
       github: "https://github.com/bryanpascuadizon/port-freshpicks-ecommerce",
       repositoryName: "port-freshpicks-ecommerce.git",
       skills: [
