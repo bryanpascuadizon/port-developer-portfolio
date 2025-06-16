@@ -3,6 +3,13 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { ArrowUpRight, Github } from "lucide-react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Projects = () => {
   const data = portfolio;
@@ -17,22 +24,28 @@ const Projects = () => {
       <div className="flex flex-col gap-5">
         {data.projects.map((project, projectIndex) => (
           <div
-            className="md:grid md:grid-cols-4 flex flex-col gap-5 slide-in-from-right"
+            className="slide-in-from-right"
             style={{ animationDelay: `${(projectIndex + 8) * 0.5}s` }}
             key={projectIndex}
           >
-            <div className="md:col-span-1 w-full">
-              <Link href={project.website} target="_blank" className="link">
-                <Image
-                  src={project.image}
-                  alt={project.name}
-                  width={300}
-                  height={300}
-                  className="rounded-sm object-cover object-center m-auto"
-                />
-              </Link>
-            </div>
-            <div className="md:col-span-3">
+            <Carousel className="mx-15 mb-5">
+              <CarouselContent>
+                {project.image.map((image, index) => (
+                  <CarouselItem key={index}>
+                    <Image
+                      src={image}
+                      alt={project.name}
+                      width={300}
+                      height={300}
+                      className="rounded-sm object-cover object-center m-auto"
+                    />
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="cursor-pointer" />
+              <CarouselNext className="cursor-pointer" />
+            </Carousel>
+            <div className="w-full">
               <div className="">
                 <Link
                   href={project.website}
@@ -47,7 +60,7 @@ const Projects = () => {
                     width={15}
                   />
                 </Link>
-                <p className="secondary-text text-sm mb-3 mt-1">
+                <p className="secondary-text text-sm mb-3 mt-3">
                   <Link
                     href={project.github}
                     target="_blank"

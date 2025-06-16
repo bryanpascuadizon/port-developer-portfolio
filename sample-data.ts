@@ -89,17 +89,27 @@ export const portfolio = {
     {
       name: "bryanpascuadizon",
       description: "My Developer Portfolio",
-      image: "/images/projects/portfolio.png",
+      image: ["/images/projects/portfolio/portfolio-1.png"],
       website: "https://bryanpascuadizon.vercel.app/",
       github: "https://github.com/bryanpascuadizon/port-developer-portfolio",
       repositoryName: "port-developer-portfolio.git",
-      skills: ["ReactJS", "Tailwind"],
+      skills: ["ReactJS", "Tailwind", "shadcn/ui"],
     },
     {
       name: "Freshpicks E-Commerce",
       description:
         "A simple e-commerce platform that sells fresh, high-quality microgreens, providing customers with a convenient way to enhance their health and meals.",
-      image: "/images/projects/freshpicks.png",
+      image: [
+        "/images/projects/freshpicks/freshpicks-1.png",
+        "/images/projects/freshpicks/freshpicks-2.png",
+        "/images/projects/freshpicks/freshpicks-3.png",
+        "/images/projects/freshpicks/freshpicks-4.png",
+        "/images/projects/freshpicks/freshpicks-5.png",
+        "/images/projects/freshpicks/freshpicks-6.png",
+        "/images/projects/freshpicks/freshpicks-7.png",
+        "/images/projects/freshpicks/freshpicks-8.png",
+        "/images/projects/freshpicks/freshpicks-9.png",
+      ],
       website: "https://freshpicks.vercel.app/sign-in",
       github: "https://github.com/bryanpascuadizon/port-freshpicks-ecommerce",
       repositoryName: "port-freshpicks-ecommerce.git",
@@ -116,7 +126,13 @@ export const portfolio = {
       name: "DailyPeso (In progress)",
       description:
         "A personal expense tracker designed to help you stay on top of your daily spending. You can easily log your expenses and income, organize them by account, and see where your money goes. With a clean design and smooth experience, DailyPeso makes money tracking quick, easy, and stress-free — whether you're saving up or just trying to budget better.",
-      image: "/images/projects/dailypeso.png",
+      image: [
+        "/images/projects/dailypeso/dailypeso-1.png",
+        "/images/projects/dailypeso/dailypeso-2.png",
+        "/images/projects/dailypeso/dailypeso-3.png",
+        "/images/projects/dailypeso/dailypeso-4.png",
+        "/images/projects/dailypeso/dailypeso-5.png",
+      ],
       website: "https://dailypeso.vercel.app/",
       github:
         "https://github.com/bryanpascuadizon/port-dailypeso-expense-tracker",
