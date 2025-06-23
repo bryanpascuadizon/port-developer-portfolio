@@ -125,7 +125,7 @@ export const portfolio = {
     {
       name: "DailyPeso (In progress)",
       description:
-        "A personal expense tracker designed to help you stay on top of your daily spending. You can easily log your expenses and income, organize them by account, and see where your money goes. With a clean design and smooth experience, DailyPeso makes money tracking quick, easy, and stress-free — whether you're saving up or just trying to budget better.",
+        "DailyPeso is your simple, everyday money tracker that makes managing your finances feel easy. Whether you're buying coffee, paying bills, or setting aside savings, you can quickly log your expenses and income in just a few taps. Organize your transactions by account, see where your money’s going, and get a clear picture of your spending habits. With a clean, modern design and a smooth experience, DailyPeso helps you stay on top of your budget without the stress. Perfect for anyone who wants to save more, spend smarter, or just keep their daily spending in check.",
       image: [
         "/images/projects/dailypeso/dailypeso-1.png",
         "/images/projects/dailypeso/dailypeso-2.png",
