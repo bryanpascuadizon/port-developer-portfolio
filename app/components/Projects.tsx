@@ -1,15 +1,15 @@
 import { portfolio } from "@/sample-data";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
-import Image from "next/image";
+// import Image from "next/image";
 import { ArrowUpRight, Github } from "lucide-react";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+// import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselItem,
+//   CarouselNext,
+//   CarouselPrevious,
+// } from "@/components/ui/carousel";
 
 const Projects = () => {
   const data = portfolio;
