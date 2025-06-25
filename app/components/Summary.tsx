@@ -12,7 +12,7 @@ const Summary = () => {
         <p className="secondary-text text-sm"> {data.position}</p>
       </div>
       <p
-        className="align-middle leading-relaxed accent-text slide-in-from-right"
+        className="align-middle leading-relaxed secondary-text slide-in-from-right"
         style={{ animationDelay: `${1 * 0.5}s` }}
       >
         {data.summary}

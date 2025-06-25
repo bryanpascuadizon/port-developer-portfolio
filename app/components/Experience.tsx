@@ -38,7 +38,7 @@ const Experience = () => {
               </Link>
 
               {experience.description.map((description, descriptionIndex) => (
-                <p className="mt-3 mb-3 accent-text" key={descriptionIndex}>
+                <p className="mt-3 mb-3 secondary-text" key={descriptionIndex}>
                   {description}
                 </p>
               ))}

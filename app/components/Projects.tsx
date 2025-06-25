@@ -28,7 +28,7 @@ const Projects = () => {
             style={{ animationDelay: `${(projectIndex + 8) * 0.5}s` }}
             key={projectIndex}
           >
-            <Carousel className="mx-15 mb-5">
+            {/* <Carousel className="mx-15 mb-5">
               <CarouselContent>
                 {project.image.map((image, index) => (
                   <CarouselItem key={index}>
@@ -44,7 +44,7 @@ const Projects = () => {
               </CarouselContent>
               <CarouselPrevious className="cursor-pointer" />
               <CarouselNext className="cursor-pointer" />
-            </Carousel>
+            </Carousel> */}
             <div className="w-full">
               <div className="">
                 <Link
@@ -72,7 +72,7 @@ const Projects = () => {
                     </span>
                   </Link>
                 </p>
-                <p className="mb-3 accent-text">{project.description}</p>
+                <p className="mb-3 secondary-text">{project.description}</p>
                 <div className="flex flex-wrap gap-2 my-4">
                   {project.skills.map((skill, skillIndex) => (
                     <Badge

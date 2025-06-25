@@ -117,15 +117,16 @@ export const portfolio = {
         "NextJS",
         "TypeScript",
         "Tailwind",
+        "shadcn/ui",
         "React Query",
         "RestfulAPI",
         "Prisma",
       ],
     },
     {
-      name: "DailyPeso (In progress)",
+      name: "DailyPeso",
       description:
-        "DailyPeso is your simple, everyday money tracker that makes managing your finances feel easy. Whether you're buying coffee, paying bills, or setting aside savings, you can quickly log your expenses and income in just a few taps. Organize your transactions by account, see where your money’s going, and get a clear picture of your spending habits. With a clean, modern design and a smooth experience, DailyPeso helps you stay on top of your budget without the stress. Perfect for anyone who wants to save more, spend smarter, or just keep their daily spending in check.",
+        "DailyPeso is your simple, everyday money tracker that makes managing your finances feel easy.",
       image: [
         "/images/projects/dailypeso/dailypeso-1.png",
         "/images/projects/dailypeso/dailypeso-2.png",
@@ -141,7 +142,9 @@ export const portfolio = {
         "NextJS",
         "TypeScript",
         "Tailwind",
+        "shadcn/ui",
         "React Query",
+        "ExcelJS",
         "RestfulAPI",
         "Prisma",
       ],
