@@ -2,14 +2,14 @@ export const portfolio = {
   name: "Danielle Bryan Dizon",
   position: "Software Engineer",
   summary:
-    "A highly dedicated software developer with 5 years of experience in front-end technologies. Proficient in React and TypeScript, delivering robust and scalable web solutions. Recognized for significantly enhancing operational efficiency and user engagement through innovative and effective programming practices.",
+    "A highly dedicated software developer with years of experience in front-end technologies. Proficient in React and TypeScript, delivering robust and scalable web solutions. Recognized for significantly enhancing operational efficiency and user engagement through innovative and effective programming practices.",
   experience: [
     {
       company: "Accenture Philippines",
       companyLink: "https://www.accenture.com/ph-en",
       position: "Senior Software Engineer",
       description: [
-        "Developed and implemented front-end solutions using React.js and TypeScript for a major banking client in Switzerland, enhancing code functionality and performance.",
+        "Developed and implemented front-end solutions using ReactJS and TypeScript for a major banking client in Switzerland, enhancing code functionality and performance.",
         "Conducted peer code reviews to ensure adherence to coding standards and best practices, fostering a collaborative and high-quality development environment.",
       ],
       years: "2023 - 2024",
@@ -27,7 +27,7 @@ export const portfolio = {
       companyLink: "https://bcstechnology.com.au/",
       position: "Junior Software Engineer",
       description: [
-        "Developed and optimized reusable, efficient, and scalable JavaScript code within the MERN stack, driving performance improvements and ensuring maintainability for complex web applications",
+        "Developed and optimized reusable, efficient, and scalable JavaScript code using the MongoDB, ExpressJS, ReactJS, NodeJS (MERN) stack, driving performance improvements and ensuring maintainability for complex web applications.",
       ],
       years: "2021 - 2023",
       skills: [
@@ -63,7 +63,7 @@ export const portfolio = {
       companyLink: "https://www.chinabank.ph/",
       position: "Systems Analysts",
       description: [
-        "Provided application support and implemented code enhancements using C#, ASP.net and Entity Framework for various in-house systems, ensuring system reliability, improving functionality, and optimizing performance to meet evolving business needs.",
+        "Provided application support and implemented code enhancements using C#, ASP.net and Entity framework for various in-house systems, ensuring system reliability, improving functionality, and optimizing performance to meet evolving business needs.",
       ],
       years: "2017 - 2018",
       skills: [
