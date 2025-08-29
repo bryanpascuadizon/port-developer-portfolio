@@ -7,7 +7,7 @@ export const portfolio = {
     {
       company: "Accenture Philippines",
       companyLink: "https://www.accenture.com/ph-en",
-      position: "Senior Software Engineer",
+      position: "Senior Software Developer",
       description: [
         "Developed front-end solutions with ReactJS, TypeScript, and NodeJS to improve performance, scalability, and code quality.",
         "Conducted peer code reviews to ensure adherence to client’s coding standards and best practices.",
@@ -27,7 +27,7 @@ export const portfolio = {
     {
       company: "BCS Technology International – Philippines",
       companyLink: "https://bcstechnology.com.au/",
-      position: "Junior Software Engineer",
+      position: "Junior Software Developer",
       description: [
         "Built and optimized front-end features for healthcare applications using ReactJS and TypeScript.",
         "Collaborated with back-end developers to enhance performance and scalability of core features built with NodeJS and REST APIs that improves system reliability and response times.",
@@ -45,7 +45,7 @@ export const portfolio = {
     {
       company: "RealPage Inc.",
       companyLink: "https://www.realpage.com/",
-      position: "Junior Software Engineer",
+      position: "Junior Software Developer",
       description: [
         "Collaborated with UI/UX designers and senior front-end developers to design and deliver high-quality real estate landing pages.",
         "Built and maintained real estate websites for U.S. clients using JavaScript, jQuery, and Kentico CMS that ensures responsiveness and cross-browser compatibility.",
