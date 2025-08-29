@@ -67,7 +67,7 @@ export const portfolio = {
     {
       company: "China Banking Corporation",
       companyLink: "https://www.chinabank.ph/",
-      position: "Systems Analysts",
+      position: "Systems Analyst",
       description: [
         "Provided application support and developed core functions, features, and code enhancements using JavaScript, C#, ASP.NET, and Entity Framework for in-house systems.",
         "Partnered with product owners to analyze and document core product functions and features to improve requirement clarity",
